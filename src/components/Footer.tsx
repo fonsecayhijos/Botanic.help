@@ -17,7 +17,7 @@ export function Footer() {
                 🌿
               </span>
               <span className="font-bold text-brand-900">
-                Botanic<span className="text-brand-600">Help</span>
+                Botanica<span className="text-brand-600">Help</span>
               </span>
             </div>
             <p className="mt-3 text-sm text-brand-800/70">{t.footer.tagline}</p>
