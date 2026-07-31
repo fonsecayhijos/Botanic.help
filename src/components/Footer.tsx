@@ -40,6 +40,13 @@ export function Footer() {
           <p className="rounded-xl bg-brand-50 px-4 py-3 text-sm leading-relaxed text-brand-800/90">
             {t.footer.disclaimer}
           </p>
+          <p className="text-xs text-brand-700/70">
+            Usamos cookies. Consulta nuestra{" "}
+            <Link href="/privacidad" className="underline hover:text-brand-600">
+              Política de privacidad
+            </Link>
+            .
+          </p>
           <p className="text-xs text-brand-700/60">
             © {year} BotanicaHelp. {t.footer.rights}
           </p>

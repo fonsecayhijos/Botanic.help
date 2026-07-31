@@ -22,6 +22,26 @@ export default function PrivacidadPage() {
             <p><strong>Encargados del tratamiento:</strong> Supabase (infraestructura de datos), Stripe (pagos) y xAI (procesamiento de IA).</p>
             <p><strong>Derechos:</strong> puedes solicitar acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a info@botanicahelp.com.</p>
             <p>No vendemos tus datos personales a terceros con fines comerciales.</p>
+            
+            <h2 className="mt-8 text-xl font-bold text-brand-950">Cookies y tecnologías similares</h2>
+            <p>
+              BotanicaHelp utiliza cookies y tecnologías similares para:
+            </p>
+            <ul className="list-disc pl-5 space-y-1">
+              <li>Garantizar el funcionamiento técnico de la web (cookies necesarias: sesión, seguridad, preferencias de idioma).</li>
+              <li>Medir el uso del servicio, si nos das tu consentimiento (analítica).</li>
+              <li>Medir y mejorar nuestras campañas publicitarias, si nos das tu consentimiento (marketing), por ejemplo a través del pixel de Meta (Facebook/Instagram).</li>
+            </ul>
+            <p>
+              Las cookies necesarias no requieren consentimiento. Las de analítica y marketing solo se activan si las aceptas en el banner de cookies.
+            </p>
+            <p>
+              Puedes cambiar o retirar tu consentimiento en cualquier momento desde el propio banner o escribiéndonos a{' '}
+              <a href="mailto:info@botanicahelp.com" className="font-semibold text-brand-700 hover:underline">
+                info@botanicahelp.com
+              </a>.
+            </p>
+            <p>No vendemos tus datos personales.</p>
             <p className="text-sm text-brand-800/70">Última actualización: julio 2026.</p>
           </div>
         </div>
