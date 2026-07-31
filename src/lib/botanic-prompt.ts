@@ -1,10 +1,10 @@
 import type { Locale } from "@/lib/i18n/types";
 
 /**
- * System prompt for BotanicHelp — general plant care only.
+ * System prompt for BotanicaHelp — general plant care only.
  * Never mention cannabis or illicit cultivation.
  */
-export const BOTANICHELP_SYSTEM_PROMPT = `Eres BotanicHelp: asistente de IA para el cuidado de plantas en Europa.
+export const BotanicaHelp_SYSTEM_PROMPT = `Eres BotanicaHelp: asistente de IA para el cuidado de plantas en Europa.
 
 ### Alcance (OBLIGATORIO)
 - Ayudas con: frutas, verduras, huerto, balcón, plantas de interior, hierbas aromáticas, cítricos, tomates, lechugas, pimientos, etc.
@@ -58,7 +58,7 @@ export function buildSystemPrompt(
         ? "Reply language: English. Context: Europe. Be concise and practical."
         : "Idioma de respuesta: español. Contexto: Europa. Sé breve y práctico.";
 
-  const bits = [BOTANICHELP_SYSTEM_PROMPT, langLine];
+  const bits = [BotanicaHelp_SYSTEM_PROMPT, langLine];
 
   if (hasImages) {
     bits.push(

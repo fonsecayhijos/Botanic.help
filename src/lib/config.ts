@@ -20,7 +20,7 @@ export function getXaiBaseUrl(): string {
 
 export function getBotanicModel(): string {
   return (
-    process.env.BOTANICHELP_MODEL?.trim() ||
+    process.env.BotanicaHelp_MODEL?.trim() ||
     process.env.BLOOMGUARD_MODEL?.trim() ||
     "grok-4.5"
   );

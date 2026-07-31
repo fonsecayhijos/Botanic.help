@@ -1,5 +1,5 @@
 /**
- * BotanicHelp plans (aligned with landing prices).
+ * BotanicaHelp plans (aligned with landing prices).
  * free | huerto (9,99 €) | unlimited (19,99 €)
  * Limits are enforced client-side for now (localStorage).
  */
@@ -20,8 +20,8 @@ export type PlanDefinition = {
   limits: PlanLimits;
 };
 
-export const PLAN_STORAGE_KEY = "botanichelp_plan_v1";
-export const PLAN_CHANGED_EVENT = "botanichelp-plan-changed";
+export const PLAN_STORAGE_KEY = "botanicahelp_plan_v1";
+export const PLAN_CHANGED_EVENT = "botanicahelp-plan-changed";
 
 export const PLANS: Record<PlanId, PlanDefinition> = {
   free: {

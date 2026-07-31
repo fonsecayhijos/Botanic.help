@@ -1,6 +1,6 @@
 import type { PlanLimits } from "./plans";
 
-const USAGE_KEY = "botanichelp_usage_v1";
+const USAGE_KEY = "botanicahelp_usage_v1";
 
 export type UsageCounters = {
   messages: number;

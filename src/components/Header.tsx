@@ -19,7 +19,7 @@ export function Header() {
             🌿
           </span>
           <span className="text-lg font-bold tracking-tight text-brand-900">
-            Botanic<span className="text-brand-600">Help</span>
+            Botanica<span className="text-brand-600">Help</span>
           </span>
         </Link>
 

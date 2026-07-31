@@ -15,7 +15,7 @@ export default function LoginPage() {
           <Suspense
             fallback={
               <div className="text-sm text-brand-700/70">
-                <Link href="/">← BotanicHelp</Link>
+                <Link href="/">← BotanicaHelp</Link>
               </div>
             }
           >

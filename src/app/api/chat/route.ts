@@ -293,7 +293,7 @@ export async function POST(req: Request) {
             "Content-Type": "text/event-stream; charset=utf-8",
             "Cache-Control": "no-cache, no-transform",
             Connection: "keep-alive",
-            "X-BotanicHelp-Vision": sanitized.hadImages ? "1" : "0",
+            "X-BotanicaHelp-Vision": sanitized.hadImages ? "1" : "0",
           },
         });
       } catch (err) {
@@ -322,7 +322,7 @@ export async function POST(req: Request) {
                 "Content-Type": "text/event-stream; charset=utf-8",
                 "Cache-Control": "no-cache, no-transform",
                 Connection: "keep-alive",
-                "X-BotanicHelp-Vision": "fallback",
+                "X-BotanicaHelp-Vision": "fallback",
               },
             });
           } catch {

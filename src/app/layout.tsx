@@ -3,7 +3,7 @@ import { LanguageProvider } from "@/lib/i18n/LanguageContext";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "BotanicHelp — Ayuda con IA para el cuidado de plantas",
+  title: "BotanicaHelp — Ayuda con IA para el cuidado de plantas",
   description:
     "Sube una foto y recibe consejos claros sobre riego, luz, plagas y carencias. Para huerto, balcón, frutas, verduras y plantas de interior en Europa.",
   keywords: [

@@ -1,4 +1,4 @@
-# BotanicHelp
+# BotanicaHelp
 
 Ayuda con inteligencia artificial para el cuidado de plantas: frutas, verduras, huerto, balcón y plantas de interior en Europa.
 

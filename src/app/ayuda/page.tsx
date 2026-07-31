@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { BotanicChat } from "@/components/BotanicChat";
+import { BotanicaChat } from "@/components/BotanicaChat";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { useLanguage } from "@/lib/i18n/LanguageContext";
@@ -19,7 +19,7 @@ export default function AyudaPage() {
               href="/"
               className="text-sm font-medium text-brand-600 hover:text-brand-700"
             >
-              ← BotanicHelp
+              ← BotanicaHelp
             </Link>
             <h1 className="mt-3 text-2xl font-bold tracking-tight text-brand-950 sm:text-3xl">
               {t.assistant.title}
@@ -28,7 +28,7 @@ export default function AyudaPage() {
               {t.assistant.subtitle}
             </p>
           </div>
-          <BotanicChat />
+          <BotanicaChat />
         </div>
       </main>
       <Footer />

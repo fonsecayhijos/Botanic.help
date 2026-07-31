@@ -35,7 +35,7 @@ export function AuthForm({ mode }: { mode: Mode }) {
           href="/"
           className="mt-4 inline-block text-sm font-semibold text-brand-600 hover:text-brand-700"
         >
-          ← BotanicHelp
+          ← BotanicaHelp
         </Link>
       </div>
     );
@@ -111,7 +111,7 @@ export function AuthForm({ mode }: { mode: Mode }) {
     <div className="w-full max-w-md rounded-3xl border border-brand-100 bg-white p-6 shadow-sm sm:p-8">
       <div className="mb-6">
         <p className="text-xs font-semibold uppercase tracking-wide text-brand-600">
-          BotanicHelp
+          BotanicaHelp
         </p>
         <h1 className="mt-1 text-2xl font-bold text-brand-950">
           {mode === "login" ? a.loginTitle : a.signupTitle}

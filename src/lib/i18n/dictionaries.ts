@@ -10,7 +10,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       menu: "Menú",
     },
     hero: {
-      title: "Tu planta necesita ayuda. BotanicHelp te orienta.",
+      title: "Tu planta necesita ayuda. BotanicaHelp te orienta.",
       subtitle:
         "Sube una foto y recibe consejos claros sobre riego, luz, plagas y carencias. Ideal para huerto, balcón, frutas, verduras y plantas de interior en Europa.",
       ctaPrimary: "Empezar gratis",
@@ -125,7 +125,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       button: "Crear cuenta gratis",
     },
     assistant: {
-      title: "Asistente BotanicHelp",
+      title: "Asistente BotanicaHelp",
       subtitle:
         "Pregunta sobre riego, luz, plagas o carencias. También puedes subir una foto de tu planta.",
       uploadTitle: "Foto de tu planta",
@@ -135,7 +135,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       chatPlaceholder: "Ej.: Hojas de tomate con manchas amarillas…",
       chatSend: "Enviar",
       chatWelcome:
-        "¡Hola! Soy el asistente de BotanicHelp. Puedo orientarte con frutas, verduras, huerto, balcón y plantas de interior: riego, luz, plagas y carencias. ¿Qué le pasa a tu planta?",
+        "¡Hola! Soy el asistente de BotanicaHelp. Puedo orientarte con frutas, verduras, huerto, balcón y plantas de interior: riego, luz, plagas y carencias. ¿Qué le pasa a tu planta?",
       comingSoon: "La IA no está conectada todavía. Añade XAI_API_KEY en .env.local.",
       clearChat: "Vaciar chat",
       removePhoto: "Quitar foto",
@@ -186,7 +186,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       login: "Entrar",
       logout: "Salir",
       loginTitle: "Iniciar sesión",
-      loginSubtitle: "Accede a tu cuenta de BotanicHelp",
+      loginSubtitle: "Accede a tu cuenta de BotanicaHelp",
       signupTitle: "Crear cuenta",
       signupSubtitle: "Regístrate gratis en segundos",
       email: "Email",
@@ -222,7 +222,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       menu: "Menü",
     },
     hero: {
-      title: "Deine Pflanze braucht Hilfe. BotanicHelp zeigt den Weg.",
+      title: "Deine Pflanze braucht Hilfe. BotanicaHelp zeigt den Weg.",
       subtitle:
         "Lade ein Foto hoch und erhalte klare Tipps zu Gießen, Licht, Schädlingen und Nährstoffmängeln. Ideal für Garten, Balkon, Obst, Gemüse und Zimmerpflanzen in Europa.",
       ctaPrimary: "Kostenlos starten",
@@ -337,7 +337,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       button: "Kostenloses Konto anlegen",
     },
     assistant: {
-      title: "BotanicHelp-Assistent",
+      title: "BotanicaHelp-Assistent",
       subtitle:
         "Frag zu Gießen, Licht, Schädlingen oder Mängeln. Du kannst auch ein Foto hochladen.",
       uploadTitle: "Foto deiner Pflanze",
@@ -347,7 +347,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       chatPlaceholder: "z. B.: Tomatenblätter mit gelben Flecken…",
       chatSend: "Senden",
       chatWelcome:
-        "Hallo! Ich bin der BotanicHelp-Assistent. Ich helfe bei Obst, Gemüse, Garten, Balkon und Zimmerpflanzen: Gießen, Licht, Schädlinge und Nährstoffmängel. Was ist mit deiner Pflanze los?",
+        "Hallo! Ich bin der BotanicaHelp-Assistent. Ich helfe bei Obst, Gemüse, Garten, Balkon und Zimmerpflanzen: Gießen, Licht, Schädlinge und Nährstoffmängel. Was ist mit deiner Pflanze los?",
       comingSoon:
         "KI noch nicht verbunden. XAI_API_KEY in .env.local eintragen.",
       clearChat: "Chat leeren",
@@ -402,7 +402,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       login: "Anmelden",
       logout: "Abmelden",
       loginTitle: "Anmelden",
-      loginSubtitle: "Melde dich bei BotanicHelp an",
+      loginSubtitle: "Melde dich bei BotanicaHelp an",
       signupTitle: "Konto erstellen",
       signupSubtitle: "In Sekunden kostenlos registrieren",
       email: "E-Mail",
@@ -438,7 +438,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       menu: "Menu",
     },
     hero: {
-      title: "Your plant needs help. BotanicHelp guides you.",
+      title: "Your plant needs help. BotanicaHelp guides you.",
       subtitle:
         "Upload a photo and get clear advice on watering, light, pests and nutrient issues. Built for gardens, balconies, fruit, vegetables and houseplants across Europe.",
       ctaPrimary: "Start for free",
@@ -552,7 +552,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       button: "Create a free account",
     },
     assistant: {
-      title: "BotanicHelp Assistant",
+      title: "BotanicaHelp Assistant",
       subtitle:
         "Ask about watering, light, pests or deficiencies. You can also upload a plant photo.",
       uploadTitle: "Photo of your plant",
@@ -562,7 +562,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       chatPlaceholder: "e.g. Tomato leaves with yellow spots…",
       chatSend: "Send",
       chatWelcome:
-        "Hi! I'm the BotanicHelp assistant. I help with fruit, vegetables, gardens, balconies and houseplants: watering, light, pests and nutrient issues. What's going on with your plant?",
+        "Hi! I'm the BotanicaHelp assistant. I help with fruit, vegetables, gardens, balconies and houseplants: watering, light, pests and nutrient issues. What's going on with your plant?",
       comingSoon:
         "AI not connected yet. Add XAI_API_KEY to .env.local.",
       clearChat: "Clear chat",
@@ -617,7 +617,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       login: "Log in",
       logout: "Log out",
       loginTitle: "Log in",
-      loginSubtitle: "Access your BotanicHelp account",
+      loginSubtitle: "Access your BotanicaHelp account",
       signupTitle: "Create account",
       signupSubtitle: "Sign up free in seconds",
       email: "Email",

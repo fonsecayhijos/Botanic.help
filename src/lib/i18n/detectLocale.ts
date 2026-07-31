@@ -1,6 +1,6 @@
 import type { Locale } from "./types";
 
-export const STORAGE_KEY = "botanichelp-locale";
+export const STORAGE_KEY = "botanicahelp-locale";
 
 const SUPPORTED: Locale[] = ["es", "de", "en"];
 

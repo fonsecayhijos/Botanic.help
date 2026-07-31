@@ -41,7 +41,7 @@ export function Footer() {
             {t.footer.disclaimer}
           </p>
           <p className="text-xs text-brand-700/60">
-            © {year} BotanicHelp. {t.footer.rights}
+            © {year} BotanicaHelp. {t.footer.rights}
           </p>
         </div>
       </div>

@@ -58,7 +58,7 @@ function formatMessage(text: string) {
   });
 }
 
-export function BotanicChat() {
+export function BotanicaChat() {
   const { t, locale } = useLanguage();
   const a = t.assistant;
 
