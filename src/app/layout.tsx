@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { LanguageProvider } from "@/lib/i18n/LanguageContext";
+import { CookieBanner } from "@/components/CookieBanner";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -34,7 +35,10 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className="min-h-dvh antialiased">
-        <LanguageProvider>{children}</LanguageProvider>
+        <LanguageProvider>
+          {children}
+          <CookieBanner />
+        </LanguageProvider>
       </body>
     </html>
   );
