@@ -24,13 +24,13 @@ export function Footer() {
           </div>
 
           <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm font-medium text-brand-800/80">
-            <Link href="#" className="hover:text-brand-600">
+            <Link href="/privacidad" className="hover:text-brand-600">
               {t.footer.links.privacy}
             </Link>
-            <Link href="#" className="hover:text-brand-600">
+            <Link href="/terminos" className="hover:text-brand-600">
               {t.footer.links.terms}
             </Link>
-            <Link href="#" className="hover:text-brand-600">
+            <Link href="/contacto" className="hover:text-brand-600">
               {t.footer.links.contact}
             </Link>
           </nav>
