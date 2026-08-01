@@ -1,7 +1,8 @@
-"use client";
+﻿"use client";
 
-import Image from "next/image";
 import { useEffect, useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 /** High-quality Unsplash produce photos (fruits & vegetables). */
 const SLIDES = [
@@ -61,10 +62,10 @@ export function HeroCarousel() {
   }, []);
 
   return (
-    <div
-      className="relative h-[280px] w-full overflow-hidden rounded-2xl shadow-md shadow-brand-900/10 ring-1 ring-brand-900/5 sm:h-[360px] lg:h-[400px]"
-      role="img"
-      aria-label={SLIDES[index].alt}
+    <Link
+      href="/plantas"
+      className="group relative block h-[280px] w-full overflow-hidden rounded-2xl shadow-md shadow-brand-900/10 ring-1 ring-brand-900/5 sm:h-[360px] lg:h-[400px]"
+      aria-label="Ver plantas del huerto y balcón"
     >
       {SLIDES.map((slide, i) => {
         const active = i === index;
@@ -84,22 +85,29 @@ export function HeroCarousel() {
               alt={slide.alt}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover"
+              className="object-cover transition duration-300 group-hover:scale-[1.02]"
               priority={i === 0}
             />
           </div>
         );
       })}
 
-      {/* Soft green tint at edges for brand cohesion */}
+      {/* Soft overlays */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 z-[2] rounded-2xl ring-1 ring-inset ring-brand-900/5"
       />
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-x-0 bottom-0 z-[2] h-16 bg-gradient-to-t from-brand-950/20 to-transparent"
+        className="pointer-events-none absolute inset-x-0 bottom-0 z-[2] h-24 bg-gradient-to-t from-brand-950/50 to-transparent"
       />
-    </div>
+
+      {/* Botón visible */}
+      <div className="absolute inset-x-0 bottom-4 z-[3] flex justify-center px-4">
+        <span className="rounded-full bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-brand-900/25 transition group-hover:bg-brand-700">
+          Ver plantas del huerto
+        </span>
+      </div>
+    </Link>
   );
 }
