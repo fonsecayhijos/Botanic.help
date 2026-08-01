@@ -87,6 +87,29 @@ export type Dictionary = {
     topicsHint: string;
     disclaimer: string;
   };
+  plants: {
+    title: string;
+    subtitle: string;
+    ideal: string;
+    light: string;
+    water: string;
+    tips: string;
+    problems: string;
+    askAssistant: string;
+    back: string;
+    carouselCta: string;
+  };  plants: {
+    title: string;
+    subtitle: string;
+    ideal: string;
+    light: string;
+    water: string;
+    tips: string;
+    problems: string;
+    askAssistant: string;
+    back: string;
+    carouselCta: string;
+  };
   footer: {
     tagline: string;
     disclaimer: string;

@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useLanguage } from "@/lib/i18n/LanguageContext";
 
-/** High-quality Unsplash produce photos (fruits & vegetables). */
 const SLIDES = [
   {
     src: "https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=1200&q=80",
@@ -28,7 +28,7 @@ const SLIDES = [
   },
   {
     src: "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?w=1200&q=80",
-    alt: "Hierbas aromáticas frescas (albahaca y otras)",
+    alt: "Hierbas aromáticas frescas",
   },
   {
     src: "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?w=1200&q=80",
@@ -53,6 +53,7 @@ const FADE_MS = 700;
 
 export function HeroCarousel() {
   const [index, setIndex] = useState(0);
+  const { t } = useLanguage();
 
   useEffect(() => {
     const id = window.setInterval(() => {
@@ -65,7 +66,7 @@ export function HeroCarousel() {
     <Link
       href="/plantas"
       className="group relative block h-[280px] w-full overflow-hidden rounded-2xl shadow-md shadow-brand-900/10 ring-1 ring-brand-900/5 sm:h-[360px] lg:h-[400px]"
-      aria-label="Ver plantas del huerto y balcón"
+      aria-label={t.plants.carouselCta}
     >
       {SLIDES.map((slide, i) => {
         const active = i === index;
@@ -92,7 +93,6 @@ export function HeroCarousel() {
         );
       })}
 
-      {/* Soft overlays */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 z-[2] rounded-2xl ring-1 ring-inset ring-brand-900/5"
@@ -102,10 +102,9 @@ export function HeroCarousel() {
         className="pointer-events-none absolute inset-x-0 bottom-0 z-[2] h-24 bg-gradient-to-t from-brand-950/50 to-transparent"
       />
 
-      {/* Botón visible */}
       <div className="absolute inset-x-0 bottom-4 z-[3] flex justify-center px-4">
         <span className="rounded-full bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-brand-900/25 transition group-hover:bg-brand-700">
-          Ver plantas del huerto
+          {t.plants.carouselCta}
         </span>
       </div>
     </Link>

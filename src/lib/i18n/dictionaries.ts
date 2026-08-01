@@ -164,6 +164,17 @@ export const dictionaries: Record<Locale, Dictionary> = {
       topicsHint: "Riego · Luz · Plagas · Carencias · Huerto · Balcón",
       disclaimer:
         "Información orientativa. Tú eres responsable del cuidado de tus plantas.",
+    },    plants: {
+      title: "Plantas del huerto y balcón",
+      subtitle: "Guías rápidas de las verduras, frutas y hierbas más habituales. Si tienes un problema, sube una foto al asistente.",
+      ideal: "Ideal",
+      light: "Luz",
+      water: "Riego",
+      tips: "Consejos",
+      problems: "Problemas frecuentes",
+      askAssistant: "Preguntar al asistente",
+      back: "← BotanicaHelp",
+      carouselCta: "Ver plantas del huerto",
     },
     footer: {
       tagline: "Ayuda con IA para el cuidado de plantas en Europa",
@@ -380,6 +391,17 @@ export const dictionaries: Record<Locale, Dictionary> = {
       topicsHint: "Gießen · Licht · Schädlinge · Mängel · Garten · Balkon",
       disclaimer:
         "Orientierende Informationen. Du bist für die Pflege deiner Pflanzen verantwortlich.",
+    },    plants: {
+      title: "Pflanzen für Garten und Balkon",
+      subtitle: "Kurze Anleitungen zu den häufigsten Gemüse-, Obst- und Kräuterarten. Bei Problemen einfach ein Foto an den Assistenten senden.",
+      ideal: "Ideal",
+      light: "Licht",
+      water: "Gießen",
+      tips: "Tipps",
+      problems: "Häufige Probleme",
+      askAssistant: "Assistent fragen",
+      back: "← BotanicaHelp",
+      carouselCta: "Gartenpflanzen ansehen",
     },
     footer: {
       tagline: "KI-Hilfe für die Pflanzenpflege in Europa",
@@ -595,6 +617,17 @@ export const dictionaries: Record<Locale, Dictionary> = {
       topicsHint: "Watering · Light · Pests · Deficiencies · Garden · Balcony",
       disclaimer:
         "Guidance only. You are responsible for the care of your plants.",
+    },    plants: {
+      title: "Garden & balcony plants",
+      subtitle: "Quick guides to the most common vegetables, fruits and herbs. If something looks wrong, upload a photo to the assistant.",
+      ideal: "Ideal",
+      light: "Light",
+      water: "Watering",
+      tips: "Tips",
+      problems: "Common problems",
+      askAssistant: "Ask the assistant",
+      back: "← BotanicaHelp",
+      carouselCta: "View garden plants",
     },
     footer: {
       tagline: "AI help for plant care across Europe",
