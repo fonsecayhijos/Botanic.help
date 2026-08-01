@@ -98,17 +98,6 @@ export type Dictionary = {
     askAssistant: string;
     back: string;
     carouselCta: string;
-  };  plants: {
-    title: string;
-    subtitle: string;
-    ideal: string;
-    light: string;
-    water: string;
-    tips: string;
-    problems: string;
-    askAssistant: string;
-    back: string;
-    carouselCta: string;
   };
   footer: {
     tagline: string;
